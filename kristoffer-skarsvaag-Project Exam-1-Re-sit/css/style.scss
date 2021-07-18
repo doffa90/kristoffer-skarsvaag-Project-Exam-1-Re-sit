@@ -1,0 +1,63 @@
+    .carousel-inner {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-bottom: 3em;
+    }
+    
+    .carousel-caption {
+        text-align: center;
+    }
+    
+    .input-group {
+        width: 450px;
+    }
+    
+    .result {
+        margin-top: 50px;
+        width: 100%;
+        display: grid;
+        grid-gap: 2em;
+        grid-template: auto / repeat(auto-fit, minmax(350px, 1fr));
+    }
+    
+    .card-img-overlay {
+        text-align: center;
+        top: 35%;
+    }
+    
+    .result {
+        color: black;
+        padding-bottom: 2em;
+    }
+    
+    body {
+        background-color: rgb(99, 100, 100);
+    }
+    
+    .SOME {
+        padding: 3rem;
+        text-decoration: none;
+        font-size: 25px;
+        background-color: rgb(44, 54, 63);
+        color: red;
+        font-weight: 700;
+    }
+    
+    .fab {
+        color: snow;
+    }
+    
+    .about-us {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 3em;
+    }
+    
+    .cuisine-picker {
+        height: 100%;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+        color: black
+    }

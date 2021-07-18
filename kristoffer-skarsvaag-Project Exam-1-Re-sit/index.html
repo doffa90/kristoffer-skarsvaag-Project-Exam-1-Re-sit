@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome-->
+    <script src="https://kit.fontawesome.com/a56e628c38.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Title -->
+    <title>Good food Mood</title>
+</head>
+<!-- Body -->
+
+<body>
+    <!-- Top nav -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- Felt cute, might add logo later -->
+            <a class="navbar-brand" href="/index.html"><img src="/images/logo.svg" alt="GFM Logo" width="60" height="60">Good Food Mood</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarToggler">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/recipes.html">recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/cuisinepicker.html">Cuisine Picker</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero banner/carousel-->
+    <div id="hero-banner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/images/rsz_tasty-asian-noodles-with-cheese-tofu-vegetables-bowls-banner.jpg" class="d-block w-100" alt="Cheese burger">
+                <div class="carousel-caption">
+                    <h1>Good food mood</h1>
+                    <p>The recipe site for great food!</p>
+                    <a href="/recipes.html"><button type="button" class="btn btn-danger btn-lg">Click here for recipes!</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact form & inspirational image-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl">
+                    <div class="card text-center" id="newsLetterCard">
+                        <div class="card-body" id="newsLetterCard-body">
+
+                            <h3 class="newsletter">Enter our newsletter!</h3>
+                            <p>Sign up to receive our emails and get first dibs on new recipes</p>
+
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="FirstName" class="form-label">First Name</label><br>
+                                    <input type="FirstName" class="form-control-lg" id="MailFirstName" placeholder="First name..">
+                                    <div class="form-error" id="firstName-error">Please enter you're first name</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="Last Name" class="form-label">Last Name</label><br>
+                                    <input type="LastName" class="form-control-lg" id="MailLastName" placeholder="Last name..">
+                                    <div class="form-error" id="lastName-error">Please enter you're last name</div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="InputEmailList" class="form-label">Email</label><br>
+                                    <input type="email" class="form-control-lg" id="InputEmailList" placeholder="Email..">
+                                    <div class="form-error" id="email-error">Please enter a valid email address</div>
+                                </div>
+                                <button type="submit" class="form-btn">COUNT ME IN!</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl">
+                    <div class="card mb-3">
+                        <img src="images/rsz_holiday-breakfast-with-egg-waffle-food-photography.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Start exploring the kitchen with us</h5>
+                            <p class="card-text">Look up great recipes from all over the world, or start by exploring your own country's cuisine. whatever you like, give it a go! Food should be love and exploration!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Social Media -->
+    <div class="SOME container-fluid">
+        <div class="container-social">
+            <div class="row">
+                <div class="col">
+                    Follow us!
+                </div>
+                <div class="col">
+                    <a href="#"> <i class="fab fa-facebook">Facebook</i></a>
+                </div>
+                <div class="col">
+                    <a href="#"> <i class="fab fa-instagram">Instagram</i></a>
+                </div>
+                <div class="col">
+                    <a href="#"> <i class="fab fa-youtube">Youtube</i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <nav class="navbar sticky-bottom navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <a class="navbar-brand" href="/index.html"><img src="/images/logo.svg" alt="GFM Logo" width="60" height="60">Good Food Mood</a>
+                    </div>
+                    <div class="col">
+                        Contact
+                    </div>
+                    <div class="col">
+                        <a href="about.html">About</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        goodfood@mood.com
+                    </div>
+                    <div class="col">
+                        business queries
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        +471234567
+                    </div>
+                    <div class="col">
+                        bqueries@mood.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        Copyright&copy;2021
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <!-- Javascript -->
+    <script src="javascritp/settings/newsletter.js" type="module"></script>
+</body>
+
+</html>
